@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main{
+width:336px;
+max-height:397px;
+Top:232px;
+Left:408px;
+border-radius:10px;
+border: 1px solid #C4C4C4;
+overflow: hidden;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+margin: 0 auto;
+}
+.head{
+    background-color: #FFDC40;
+    width: 336px;
+    height: 28px;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+.task-main{
+    border: 1px solid #C4C4C4;
+    width: 286px; 
+    max-height: 200px; 
+    min-height: 40px; 
+    border-radius:10px;
+    margin: 0 auto;
+}
+.task{
+    width: 286px;
+    height: 40px;
+    display: flex;
+    
+}
+
+p{
+    width: 220px;
+    height: 30px;
+    margin:10px 3px 0 8px;
+    outline: none;
+}
+.task svg:hover * {
+fill:#833AE0;
+}
+.task svg{
+    display:inline-block;
+    margin-top: 10px;
+}
+
+.downArrow svg:hover * , .upArrow svg:hover *{
+    fill: black;
+}
+.downArrow svg, .upArrow svg{
+    position: relative;
+    float: right;
+    margin: -25px 28px 0 0 ;
+}
+
+button{
+    display: flex;
+    background-color: #833AE0;
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    padding:13px;
+    border:none;
+    margin: 0 auto;
+    color:white;
+    margin-top: 18px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 19px;
+
+}
+button:hover{
+    background-color: #9953F1;
+}
+.round{
+background-color: #9953F1;
+border: none;
+border-radius: 21px;
+height: 42px;
+width: 42px;
+color:white;
+margin: -13px 15px 0 -15px;
+padding: 13px;
+box-sizing: border-box;
+}
